@@ -1,0 +1,23 @@
+{
+  "name": "wechaty-puppet-1.0-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcfw007/wechaty-puppet-1.0-migration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcfw007/wechaty-puppet-1.0-migration/issues"
+  },
+  "homepage": "https://github.com/hcfw007/wechaty-puppet-1.0-migration#readme",
+  "dependencies": {
+    "file-box": "^1.4.12",
+    "wechaty-puppet": "^1.10.2"
+  }
+}
