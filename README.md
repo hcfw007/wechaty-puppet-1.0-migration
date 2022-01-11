@@ -10,7 +10,7 @@ A temporary solution when moving to wechaty 1.x
 npm install wechaty-puppet-1.0-migration wechaty-puppet file-box
 ```
 
-Note: You need to insall wechaty-puppet and file-box yourself. So that you can choose your ideal version of these dependencies.
+Note: You need to insall wechaty-puppet and file-box yourself. So that you can choose your ideal version of these dependencies. It supports wechaty-puppet@1.10.x so far.
 
 ### usage
 
