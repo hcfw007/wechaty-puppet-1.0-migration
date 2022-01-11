@@ -1,6 +1,7 @@
 export type {
   WrapAsync,
 } from 'wechaty-puppet/helpers'
+
 export {
   GError,
   MemoryCard,
