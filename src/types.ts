@@ -17,3 +17,12 @@ export {
   Message as MessageType,
   Payload as PayloadType,
 }
+
+export {
+  ScanStatus,
+  YOU,
+  CHAT_EVENT_DICT,
+  PUPPET_EVENT_DICT,
+
+  FriendshipAddOptions,
+} from 'wechaty-puppet/types'
