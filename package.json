@@ -16,7 +16,7 @@
     "url": "https://github.com/hcfw007/wechaty-puppet-1.0-migration/issues"
   },
   "homepage": "https://github.com/hcfw007/wechaty-puppet-1.0-migration#readme",
-  "dependencies": {
+  "peerDependencies": {
     "file-box": "^1.4.12",
     "wechaty-puppet": "^1.10.2"
   }
