@@ -2,10 +2,10 @@
   "name": "wechaty-puppet-1.0-migration",
   "version": "1.0.4",
   "description": "",
-  "main": "dist/index.js",
+  "main": "./dist/esm/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dist": "rm -r dist && tsc"
+    "dist": "rm -rf dist && tsc"
   },
   "repository": {
     "type": "git",
