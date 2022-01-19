@@ -1,4 +1,4 @@
-import {
+import type {
   Contact,
   EventDirty,
   EventDong,
@@ -31,7 +31,7 @@ import {
   UrlLink,
 } from 'wechaty-puppet/payloads'
 
-export {
+export type {
   Contact as ContactPayload,
   EventDirty as EventDirtyPayload,
   EventDong as EventDongPayload,
