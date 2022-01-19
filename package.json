@@ -3,7 +3,12 @@
   "version": "1.0.10",
   "description": "",
   "type": "module",
-  "main": "./dist/esm/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "shx rm -fr dist/*",
