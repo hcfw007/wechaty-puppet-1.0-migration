@@ -1,7 +1,8 @@
 {
   "name": "wechaty-puppet-1.0-migration",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
+  "type": "module",
   "main": "./dist/esm/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
