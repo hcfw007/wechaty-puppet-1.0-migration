@@ -11,6 +11,6 @@ export {
 } from 'wechaty-puppet'
 
 export type { PuppetOptions } from 'wechaty-puppet'
-export * from './modules/helpers'
-export * from './modules/payloads'
-export * from './modules/types'
+export * from './modules/helpers.js'
+export * from './modules/payloads.js'
+export * from './modules/types.js'
