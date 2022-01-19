@@ -1,13 +1,13 @@
 {
   "name": "wechaty-puppet-1.0-migration",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "",
   "type": "module",
   "main": "./dist/cjs/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "shx rm -fr dist/*",
-    "build": "tsc && tsc -p tsconfig.cjs.json",
+    "build": "tsc",
     "dist": "npm-run-all clean build"
   },
   "repository": {
