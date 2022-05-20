@@ -29,6 +29,17 @@ import type {
   RoomMember,
   Room,
   UrlLink,
+  Post,
+  PostClient,
+  PostServer,
+  Sayable,
+  EventPost,
+} from 'wechaty-puppet/payloads'
+
+import {
+  sayable,
+  isPostServer,
+  isPostClient,
 } from 'wechaty-puppet/payloads'
 
 export type {
@@ -41,6 +52,7 @@ export type {
   EventLogin as EventLoginPayload,
   EventLogout as EventLogoutPayload,
   EventMessage as EventMessagePayload,
+  EventPost as EventPostPayload,
   EventReady as EventReadyPayload,
   EventReset as EventResetPayload,
   EventRoomInvite as EventRoomInvitePayload,
@@ -58,8 +70,19 @@ export type {
   MessageRoom as MessagePayloadRoom,
   MessageTo as MessagePayloadTo,
   MiniProgram as MiniProgramPayload,
+  Post as PostPayload,
+  PostClient as PostPayloadClient,
+  PostServer as PostPayloadServer,
   RoomInvitation as RoomInvitationPayload,
   RoomMember as RoomMemberPayload,
   Room as RoomPayload,
+  Sayable as SayablePayload,
+  Tap as TapPayload,
   UrlLink as UrlLinkPayload,
+}
+
+export {
+  sayable as sayablePayloads,
+  isPostServer as isPostPayloadServer,
+  isPostClient as isPostPayloadClient,
 }

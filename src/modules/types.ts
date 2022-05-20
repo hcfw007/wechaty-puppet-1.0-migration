@@ -6,6 +6,8 @@ import {
   Image,
   Message,
   Payload,
+  Post,
+  Sayable,
 } from 'wechaty-puppet/types'
 
 export {
@@ -15,6 +17,10 @@ export {
   Friendship as FriendshipType,
   Image as ImageType,
   Message as MessageType,
+  Post as PostType,
+  Tap as TapType,
+  Sayable as sayableTypes,
+  Payload as DirtyType,
   Payload as PayloadType,
 }
 
