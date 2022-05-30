@@ -7,6 +7,7 @@ import {
   Message,
   Payload,
   Post,
+  Tap,
   Sayable,
 } from 'wechaty-puppet/types'
 
