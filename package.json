@@ -1,6 +1,6 @@
 {
   "name": "wechaty-puppet-1.0-migration",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "type": "commonjs",
   "main": "./dist/cjs/index.js",
