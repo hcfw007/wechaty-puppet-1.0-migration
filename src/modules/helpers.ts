@@ -1,1 +1,1 @@
-export * from 'wechaty-puppet/helpers'
+export * from '@juzi/wechaty-puppet/helpers'

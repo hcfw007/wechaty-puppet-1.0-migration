@@ -9,7 +9,7 @@ import {
   Post,
   Tap,
   Sayable,
-} from 'wechaty-puppet/types'
+} from '@juzi/wechaty-puppet/types'
 
 export {
   ContactGender,
@@ -30,6 +30,6 @@ export {
   YOU,
   CHAT_EVENT_DICT,
   PUPPET_EVENT_DICT,
-} from 'wechaty-puppet/types'
+} from '@juzi/wechaty-puppet/types'
 
-export type { FriendshipAddOptions } from 'wechaty-puppet/types'
+export type { FriendshipAddOptions } from '@juzi/wechaty-puppet/types'

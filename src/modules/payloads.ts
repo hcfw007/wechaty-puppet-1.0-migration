@@ -32,15 +32,16 @@ import type {
   Post,
   PostClient,
   PostServer,
+  Channel,
   Sayable,
   EventPost,
-} from 'wechaty-puppet/payloads'
+} from '@juzi/wechaty-puppet/payloads'
 
 import {
   sayable,
   isPostServer,
   isPostClient,
-} from 'wechaty-puppet/payloads'
+} from '@juzi/wechaty-puppet/payloads'
 
 export type {
   Contact as ContactPayload,
@@ -76,6 +77,7 @@ export type {
   RoomInvitation as RoomInvitationPayload,
   RoomMember as RoomMemberPayload,
   Room as RoomPayload,
+  Channel as ChannelPayload,
   Sayable as SayablePayload,
   Tap as TapPayload,
   UrlLink as UrlLinkPayload,

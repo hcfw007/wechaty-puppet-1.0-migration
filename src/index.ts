@@ -8,9 +8,9 @@ export {
   Puppet,
   throwUnsupportedError,
   VERSION
-} from 'wechaty-puppet'
+} from '@juzi/wechaty-puppet'
 
-export type { PuppetOptions } from 'wechaty-puppet'
+export type { PuppetOptions } from '@juzi/wechaty-puppet'
 export * from './modules/helpers.js'
 export * from './modules/payloads.js'
 export * from './modules/types.js'
