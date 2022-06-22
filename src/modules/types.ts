@@ -32,4 +32,4 @@ export {
   PUPPET_EVENT_DICT,
 } from '@juzi/wechaty-puppet/types'
 
-export type { FriendshipAddOptions } from '@juzi/wechaty-puppet/types'
+export type { FriendshipAddOptions, MessageSendTextOptions } from '@juzi/wechaty-puppet/types'
