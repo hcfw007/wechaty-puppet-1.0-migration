@@ -9,6 +9,7 @@ import {
   Post,
   Tap,
   Sayable,
+  Tag,
 } from '@juzi/wechaty-puppet/types'
 
 export {
@@ -23,6 +24,7 @@ export {
   Sayable as sayableTypes,
   Payload as DirtyType,
   Payload as PayloadType,
+  Tag as TagType,
 }
 
 export {

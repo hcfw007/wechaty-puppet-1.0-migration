@@ -35,6 +35,8 @@ import type {
   Channel,
   Sayable,
   EventPost,
+  Tag,
+  TagGroup,
 } from '@juzi/wechaty-puppet/payloads'
 
 import {
@@ -81,6 +83,8 @@ export type {
   Sayable as SayablePayload,
   Tap as TapPayload,
   UrlLink as UrlLinkPayload,
+  Tag as TagPayload,
+  TagGroup as TagGroupPayload,
 }
 
 export {
