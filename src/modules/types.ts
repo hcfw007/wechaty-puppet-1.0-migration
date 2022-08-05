@@ -10,6 +10,7 @@ import {
   Tap,
   Sayable,
   Tag,
+  TagEvent,
 } from '@juzi/wechaty-puppet/types'
 
 export {
@@ -25,6 +26,7 @@ export {
   Payload as DirtyType,
   Payload as PayloadType,
   Tag as TagType,
+  TagEvent as TagEventType,
 }
 
 export {
