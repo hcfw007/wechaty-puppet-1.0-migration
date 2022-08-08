@@ -28,7 +28,7 @@ export {
   Payload as PayloadType,
   Tag as TagType,
   TagEvent as TagEventType,
-  TagGroupEvent as TagGroupEventTYpe,
+  TagGroupEvent as TagGroupEventType,
 }
 
 export {
