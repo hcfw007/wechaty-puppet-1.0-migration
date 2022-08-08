@@ -66,7 +66,7 @@ export type {
   EventRoomTopic as EventRoomTopicPayload,
   EventScan as EventScanPayload,
   EventTag as EventTagPayload,
-  EventTagGroup as EventTagGroup,
+  EventTagGroup as EventTagGroupPayload,
   Friendship as FriendshipPayload,
   FriendshipConfirm as FriendshipPayloadConfirm,
   FriendshipReceive as FriendshipPayloadReceive,
