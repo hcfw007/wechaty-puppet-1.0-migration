@@ -1,6 +1,6 @@
 {
   "name": "juzi-wechaty-puppet-1.0-migration",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "type": "commonjs",
   "main": "./dist/cjs/index.js",
