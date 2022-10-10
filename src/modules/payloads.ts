@@ -37,6 +37,8 @@ import type {
   Channel,
   Sayable,
   EventPost,
+  EventPostComment,
+  EventPostTap,
   Tag,
   TagGroup,
 } from '@juzi/wechaty-puppet/payloads'
@@ -58,6 +60,8 @@ export type {
   EventLogout as EventLogoutPayload,
   EventMessage as EventMessagePayload,
   EventPost as EventPostPayload,
+  EventPostComment as EventPostCommentPayload,
+  EventPostTap as EventPostTapPayload,
   EventReady as EventReadyPayload,
   EventReset as EventResetPayload,
   EventRoomInvite as EventRoomInvitePayload,
