@@ -1,5 +1,7 @@
 # wechaty-puppet-1.0-migration
 
+***Note: This project is deprecated since we he have moved to wechaty 1.0 completly.***
+
 A temporary solution when moving to wechaty 1.x
 
 ## how to use
